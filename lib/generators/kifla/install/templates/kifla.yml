@@ -1,0 +1,6 @@
+# config model structure
+#
+model:
+  Spree::Product:
+    code: string
+    group_code: string
