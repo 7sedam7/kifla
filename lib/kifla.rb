@@ -1,6 +1,6 @@
 require "kifla/version"
+require "kifla/create_model"
 require 'rake'
-require 'yaml'
 
 require 'rails/generators/base'
 

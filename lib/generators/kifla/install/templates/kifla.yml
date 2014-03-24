@@ -1,6 +1,24 @@
+#
+# config model name
+#
+model_name: 'Spree::Product'
+
+#
 # config model structure
 #
-model:
-  Spree::Product:
-    code: string
-    group_code: string
+model_structure:
+  code: string
+  group_code: string
+
+
+#
+# config path to xml files
+#
+# In specified file there will be 3 folders:
+#
+#   to_import => where files that need to be imported should be
+#   imported  => where kifla will copy files that are imported will be
+#   error     => where kifla will copy files that contained errors
+#
+xml_path: kifla
+
